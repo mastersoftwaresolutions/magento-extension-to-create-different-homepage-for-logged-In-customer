@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+* @package    Mss_Homepage
+* @author     Yogendra Kumar (mss.yogendra@gmail.com)
+* @copyright  Copyright (c) 2014 mastersoftwaresolution
+*/
+-->
+<config>
+    <modules>
+        <Mss_Homepage>
+            <version>0.1.0</version>
+        </Mss_Homepage>
+    </modules> 
+    <global>
+        <helpers>
+      <homepage>
+        <class>Mss_Homepage_Helper</class>
+      </homepage>
+    </helpers>	
+
+        <models>
+            <mss_homepage>
+                <class>Mss_Homepage_Model</class>
+            </mss_homepage>
+        </models>        
+        <events>        
+	 <controller_action_predispatch_cms_index_index>
+              <observers>
+                  <mss_homepage_model_observer>
+                      <model>mss_homepage/observer</model>
+                      <method>homepage</method>
+                  </mss_homepage_model_observer>
+              </observers>
+          </controller_action_predispatch_cms_index_index>
+        </events>
+    </global>    
+</config>

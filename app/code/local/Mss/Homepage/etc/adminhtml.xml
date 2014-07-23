@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @package    Mss_Homepage
+* @author     Yogendra Kumar (mss.yogendra@gmail.com)
+* @copyright  Copyright (c) 2014 mastersoftwaresolution
+*/
+-->
+	<config>
+		<acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>
+										<mss translate="title" module="homepage">
+											<title>Mss Section</title>
+											<sort_order>0</sort_order>
+										</mss>
+									</children>
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+	</config>

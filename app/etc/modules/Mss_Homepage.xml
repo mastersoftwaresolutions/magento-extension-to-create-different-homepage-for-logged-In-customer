@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @package    Mss_Homepage
+* @author     Yogendra Kumar (mss.yogendra@gmail.com)
+* @copyright  Copyright (c) 2014 mastersoftwaresolution
+*/
+-->
+<config>
+  <modules>
+    <Mss_Homepage>
+      <active>true</active>
+      <codePool>local</codePool>
+      <version>0.1.0</version>
+    </Mss_Homepage>
+  </modules>
+</config>
