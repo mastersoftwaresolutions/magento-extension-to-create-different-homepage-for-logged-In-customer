@@ -19,5 +19,5 @@ Simply upload the new structure, refresh your magento cache.
 ALWAYS remember to make a full db/file backup before installing any new modules!
 </p>
 </p>
-<p>You can checkout the detail explain of this plugin <a href="http://blog.mastersoftwaresolutions.com/create-a-different-home-page-for-logged-in-user-in-magento/">Check Here</a></p>
+<p>You can checkout the detail explanation of this plugin <a href="http://blog.mastersoftwaresolutions.com/create-a-different-home-page-for-logged-in-user-in-magento/">Check Here</a></p>
 </div>
